@@ -163,7 +163,7 @@ def handle_message(event):
                 actions=[
                     URITemplateAction(
                         label="開始畫圖",
-                        uri="line://app/1593667175-GOwYBOBO"
+                        uri="line://app/1595964629-RO8GYkJ1"
                     )
                 ]
             )
