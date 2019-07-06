@@ -267,7 +267,7 @@ def handle_message(event):
         for i in dic:
           if i in msg:
             air_id=dic[i]
-            msg_text1 = air_data[air_id]['SiteName'] + '空氣品質: ' + air_data[air_id]['Status']
+            msg_text1 = air_data[air_id]['County'] + '空氣品質: ' + air_data[air_id]['Status']
             msg_text2 = 'PM2.5 = ' + air_data[air_id]['PM2.5']
             print(msg_text1)
             break
